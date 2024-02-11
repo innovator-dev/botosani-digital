@@ -1,0 +1,26 @@
+[
+  {
+    "agency_id": 6,
+    "route_id": 1,
+    "route_short_name": "101",
+    "route_long_name": "Linie 101",
+    "route_color": "#000000",
+    "route_type": 3
+  },
+  {
+    "agency_id": 6,
+    "route_id": 2,
+    "route_short_name": "102S",
+    "route_long_name": "Linie 102 scurt",
+    "route_color": "#29e80c",
+    "route_type": 3
+  },
+  {
+    "agency_id": 6,
+    "route_id": 3,
+    "route_short_name": "102",
+    "route_long_name": "Linie 102",
+    "route_color": "#120ef5",
+    "route_type": 3
+  }
+]

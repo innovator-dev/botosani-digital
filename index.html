@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" name="viewport"/>
+  <link href="https://opendata.oras.digital" rel="preconnect" crossorigin/><link href="https://fonts.googleapis.com" rel="preconnect" crossorigin/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin/><link as="style" href="https://botosani.digital/assets/css/app.css" rel="preload"/><link as="style" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="preload"/>
+  <link href="https://botosani.digital/favicon.ico" rel="icon" sizes="48x48"/><link href="https://botosani.digital/assets/app.icon/196.png" rel="shortcut icon" sizes="196x196"/><link href="https://botosani.digital/assets/app.icon/196.png" rel="apple-touch-icon"/>
+  <link href="https://botosani.digital/" rel="canonical"/>
+  <title>Botoșani Digital</title>
+  <meta content="Descoperă Botoșani digital, navighează cu ajutorul hărții interactive și accesează date și informații relevante privind transportul public." name="description"/>
+  <meta content="index,follow" name="robots"/>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link href="https://botosani.digital/assets/css/app.css" rel="stylesheet"/>
+</head>
+<body class="page home-page" data-bind="ewoidXJsIjogImh0dHBzOi8vb3BlbmRhdGEub3Jhcy5kaWdpdGFsL2FwaS9wcm94eS8iLAogICJtYXAiOiAiaHR0cHM6Ly9tYXBzLmdvb2dsZWFwaXMuY29tL21hcHMvYXBpL2pzP2tleT1BSXphU3lBYmx4Z1JpczJqOV9pbEFKUWUwVy1lbF9EdlJtb0tJUXMiCn0=">
+<header><div class="container"><a href="https://botosani.digital" class="logo na" title="Botoșani Digital"><h1><strong>Botoșani</strong> Digital</h1></a></div></header>
+<main><div id="map"><div class="spinner"></div></div>
+  <div class="mapControls hide"><h2>Seturi de date <span class="spinner hide"></span></h2>
+    <form name="map-controls">
+      <ul>
+        <li><div class="form-group form-group-inline form-group-centered fgi-start fqi-as-row">
+          <input class="btn-toggle ic-mr-10" id="toggle.mobility.publicTransportation" name="toggle.mobility.publicTransportation" type="checkbox" data-set="publicTransportation" data-source="https://botosani.digital/assets/js/publicTransportation/app.min.js"/>
+          <label class="form-label form-label-inline" for="toggle.mobility.publicTransportation" title="Afișează date transport public Botoșani"> Date transport public</label>
+        </div></li>
+        <li><div class="form-group form-group-inline form-group-centered fgi-start fqi-as-row">
+          <input class="btn-toggle ic-mr-10" id="toggle.mobility.trafficLayer" name="toggle.mobility.trafficLayer" type="checkbox" data-set="trafficLayer"/>
+          <label class="form-label form-label-inline" for="toggle.mobility.trafficLayer" title="Afișează date trafic Botoșani"> Date trafic</label>
+        </div></li>
+      </ul>
+    </form>
+  </div>
+  <p class="notification-floating-placeholder"></p>
+</main>
+</body>
+<script src="https://botosani.digital/assets/js/app.min.js"></script>
+</html>

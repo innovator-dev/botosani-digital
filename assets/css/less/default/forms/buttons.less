@@ -1,0 +1,47 @@
+/*
+ * Botoșani Digital
+ * A data-driven perspective of the city.
+ *
+ * @author Innovator Dev <hello@innovator.dev>
+ * @link https://botosani.digital
+ * @link https://oras.digital
+ *
+ * @copyright (c) Botoșani Digital [https://botosani.digital]
+ */
+
+// Simple button mixin
+.simple-button (@textColor, @backgroundColor, @backgroundColorHover) {
+  background-color: @backgroundColor;
+  color: @textColor;
+
+  &:hover {
+    background-color: @backgroundColorHover;
+    color: @textColor;
+  }
+}
+
+// Button mixin
+.define-button (@textColor, @textColorHover, @backgroundColor, @backgroundColorHover) {
+  background-color: @backgroundColor;
+  color: @textColor;
+
+  &:hover,
+  &.active {
+    background-color: @backgroundColorHover;
+    color: @textColorHover;
+  }
+}
+
+// Bordered button mixin
+.define-border-button (@textColor, @textColorHover, @backgroundColor, @backgroundColorHover, @borderColor, @borderColorHover) {
+  background-color: @backgroundColor;
+  border-color: @borderColor;
+  color: @textColor;
+
+  &:hover,
+  &.active {
+    background-color: @backgroundColorHover;
+    border-color: @borderColorHover;
+    color: @textColorHover;
+  }
+}
